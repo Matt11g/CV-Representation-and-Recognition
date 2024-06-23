@@ -1,0 +1,9 @@
+## Edge Detection
+Run the code in 'evaluateSegmentation.m'. 
+
+'nonmax.m' instead of Canny edge detection is used. 
+
+## Image Segmentation
+Just run the code in 'segmentMain.m'. It will get the segmentation results of image 'gumballs.jpg', 'snake.jpg', 'twins.jpg' and 'coins.jpg'. Previous results are stored in the 'result' directory. 
+
+Some parameters can be set in 'segmentMain.m': k_textons, winSize, numColorRegions, numTextureRegions. 
